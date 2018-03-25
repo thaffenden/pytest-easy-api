@@ -1,0 +1,19 @@
+# virtual environment
+bin/
+include/
+lib/
+lib64
+share
+pip-selfcheck.json
+pyvenv.cfg
+
+# python
+__pycache__
+*pyc
+
+# IDE
+.idea/
+
+# Tests
+.coverage
+.pytest_cache/
