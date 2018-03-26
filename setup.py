@@ -22,4 +22,5 @@ setup(
     classifiers=[
         "Framework :: Pytest",
     ],
+    keywords=['testing', 'pytest', 'api']
 )
