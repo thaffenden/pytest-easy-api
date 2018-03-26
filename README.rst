@@ -8,7 +8,7 @@ Using the `api` fixture
 The `api` fixture, acts as a pass through to a `requests.Session` object, 
 meaning you can make your API calls from it like so:
 
-.. code-block::python
+.. code-block:: python
 
     def test_my_get_function(api):
         response = api.get('/my-get-endpoint')
