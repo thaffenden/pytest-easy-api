@@ -3,6 +3,13 @@ Pytest Easy Api
 
 *A pytest plugin for super simple API testing.*
 
+Installing
+----------
+Install the package directly from pypi:
+
+>>> pip install pytest-easy-api
+
+
 Using the `api` fixture
 -----------------------
 The `api` fixture, acts as a pass through to a `requests.Session` object, 
