@@ -17,3 +17,7 @@ __pycache__
 # Tests
 .coverage
 .pytest_cache/
+
+# Package
+dist/
+pytest_easy_api.egg-info/
