@@ -2,12 +2,12 @@ from setuptools import setup
 from os import path
 
 # Get the long description from the README file
-with open(path.join(path.dirname(__file__), 'README.md')) as f:
+with open(path.join(path.dirname(__file__), 'README.rst')) as f:
     long_description = f.read()
 
 setup(
     name='pytest-easy-api',
-    version='0.0.2',
+    version='0.0.3',
     description='Simple API testing with pytest',
     long_description=long_description,
     url='https://github.com/thaffenden/pytest-easy-api',
